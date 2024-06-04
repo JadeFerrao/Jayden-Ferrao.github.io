@@ -341,3 +341,15 @@ body {
 .container button:hover{
     background-color: #304ffe;
 } */
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%; /* Adjusted width for better visibility on mobile */
+    }
+
+    .container .tabs-container .tabs li a {
+        min-width: auto;
+        padding: 12px 6px; /* Reduced padding for more compact tab links */
+    }
+}
