@@ -218,16 +218,15 @@ body {
     color: #7e57c2;
 }
 
-/* .container .tabs-container #active-tab{
+.container .tabs-container #active-tab {
     position: absolute;
-    width: 100%;
     width: 130px;
-    height: 10%;
+    height: 100%;
     background: #ede7f6;
     z-index: 1;
     border-radius: 8px;
     transition: all 0.5s ease;
-} */
+}
 
 .container .tab-content {
     display: none;
@@ -249,11 +248,15 @@ body {
 }
 
 .container .tabs-container .tabs li:nth-child(2):has(.active)~#active-tab {
-    transform: translateX(112px);
+    transform: translateX(130px);
 }
 
 .container .tabs-container .tabs li:nth-child(3):has(.active)~#active-tab {
-    transform: translateX(224px);
+    transform: translateX(260px);
+}
+
+.container .tabs-container .tabs li:nth-child(4):has(.active)~#active-tab {
+    transform: translateX(390px);
 }
 
 .container .tab-content .vote {
@@ -274,11 +277,6 @@ body {
     border: 1px solid #eee;
     transition: all 0.3s ease;
 }
-
-/* .container .tab-content .vote a:hover{
-    border: 1px solid #7e57c2;
-    color: #7e57c2;
-} */
 
 .highlight {
     border: 2px solid orange;
@@ -324,23 +322,6 @@ body {
     padding-top: 10px;
     font-size: 0.9em;
 }
-
-/* .container button{
-    background-color: #3d5afe;
-    color: #fff;
-    padding: 10px 16px;
-    border-radius: 8px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.container button:hover{
-    background-color: #304ffe;
-} */
 
 /* Media Queries for Mobile */
 @media only screen and (max-width: 600px) {
